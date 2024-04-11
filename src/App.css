@@ -1,0 +1,220 @@
+.container {
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+body {
+   color: #29342d;
+}
+
+.invoice {
+   /* font-size: 120%; */
+   width: 8.25in;
+   background-color: #fff;
+   box-shadow: 1px 3px 5px #000000bf;
+   border: 1px solid #ddd;
+   padding: 20px 20px 0;
+   min-width: 700px;
+   margin: auto auto 20px;
+}
+
+.invoice-content {
+   font-family: 'Arial', 'lucida sans unicode';
+   word-wrap: break-word;
+   /* font-size: 86%; */
+   margin: 0;
+}
+
+.clean {
+   border: 0;
+   background-color: transparent;
+   text-align: left;
+}
+
+table {
+   margin-top: 20px;
+   clear: both;
+   border-collapse: collapse;
+   empty-cells: hide;
+   margin: 5px auto 5px auto;
+   width: 99%;
+}
+
+tr {
+   margin-top: 20px;
+   vertical-align: top;
+}
+
+table td {
+   margin: 0;
+   padding: 5px;
+}
+
+table.clean {
+   font-size: 80% !important;
+}
+
+.clean td {
+   border: 0;
+   background-color: transparent;
+   text-align: left;
+}
+
+.half-left {
+   width: 450px;
+}
+
+.left-invoice-part {
+   text-align: left;
+   border-collapse: collapse;
+}
+
+.invoice-title h1{
+   display: inline;
+   font-size: 1.3em;
+   font-weight: bold;
+   line-height: inherit;
+}
+
+.invoice-title strong {
+   display: inline;
+   font-size: 1.3em;
+   font-weight: bold;
+}
+
+.clear {
+   clear: both;
+   float: none;
+   height: 1px;
+   width: 100%;
+}
+
+.left-invoice-part h2 {
+   border: 0 none;
+   float: left;
+   font-size: 1em;
+   font-weight: bold;
+   line-height: 1.3em;
+   margin: 0;
+   padding: 5px 0 0;
+   width: 132px;
+}
+
+.additional-data {
+   margin-top: 10px;
+}
+
+.additional-data p {
+   margin: 0;
+   float: left;
+   padding-top: 3px;
+}
+
+.clean p {
+   margin-bottom: 0.5em;
+   line-height: 1.4em;
+}
+
+.seller, .buyer {
+   margin-top: 10px;
+}
+
+.seller section, .buyer section {
+   float: left;
+   width: 280px;
+   padding-top: 3px;
+}
+
+.main-invoice-table {
+   width: 100%;
+   font-size: 80%;
+   margin-top: 60px;
+}
+
+table {
+   background-color: transparent;
+   margin-top: 20px;
+}
+
+thead {
+   display: table-header-group;
+}
+
+table th, table td {
+   margin: 0;
+   padding: 5px;
+   border: 1px solid #000;
+   text-align: right;
+   vertical-align: top;
+   border-collapse: collapse;
+}
+
+th.width0 {
+   width: 3%;
+}
+
+th.width1 {
+   width: 3%;
+}
+
+th.width3 {
+   width: 10%;
+}
+
+th.width4 {
+   width: 30%;
+}
+
+.nowrap {
+   white-space: nowrap;
+   overflow: hidden;
+}
+
+.text-left {
+   text-align: left;
+   padding-left: 10px;
+}
+
+table td.empty {
+   border: 0;
+}
+
+table.clean {
+   border: 0;
+   background-color: transparent;
+}
+
+table.to-right {
+   text-align: right;
+   width: 99%;
+}
+
+table.to-right th {
+   text-align: right;
+   border: 0;
+}
+
+table.to-right td {
+   width: 15%;
+   text-align: right;
+}
+
+table.clean th, table.clean td {
+   border: 0;
+   padding: 0;
+}
+
+table.clean, .clean th, .clean td {
+   text-align: left;
+}
+
+.to_pay th {
+   width: 150px;
+}
+
+.to_pay {
+   margin-bottom: 150px;
+}
+

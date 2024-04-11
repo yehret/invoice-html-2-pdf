@@ -1,9 +1,17 @@
 .container {
    margin-right: auto;
    margin-left: auto;
-   padding-left: 15px;
-   padding-right: 15px;
    width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.download-button {
+   max-width: 100px;
+   padding: 5px 30px 5x 20px;
+
+   margin-bottom: 20px;
 }
 
 body {
@@ -14,7 +22,7 @@ body {
    /* font-size: 120%; */
    width: 8.25in;
    background-color: #fff;
-   box-shadow: 1px 3px 5px #000000bf;
+   /* box-shadow: 1px 3px 5px #000000bf; */
    border: 1px solid #ddd;
    padding: 20px 20px 0;
    min-width: 700px;

@@ -181,6 +181,10 @@ th.width4 {
    overflow: hidden;
 }
 
+.including {
+   white-space: nowrap;
+}
+
 .text-left {
    text-align: left;
    padding-left: 10px;

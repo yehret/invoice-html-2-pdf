@@ -46,7 +46,7 @@ function App() {
                   <td className="half-left">
                     <div className="left-invoice-part">
                       <div className="invoice-title">
-                        <h1>Рахунок фактура </h1>
+                        <h1>Рахунок-фактура </h1>
                         <strong>№ 1</strong>
                         <div className="clear"></div>
                       </div>
@@ -75,7 +75,6 @@ function App() {
               <tbody>
                 <ProductRow />
                 <ProductRow />
-                <TaxRow />
                 <SummaryRow />
               </tbody>
             </table>

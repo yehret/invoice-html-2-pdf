@@ -42,6 +42,10 @@ body {
    text-align: left;
 }
 
+table th, table td, table tr {
+   border-collapse: collapse !important;
+}
+
 table {
    margin-top: 20px;
    clear: both;
@@ -169,7 +173,7 @@ th.width1 {
 }
 
 th.width3 {
-   width: 10%;
+   width: 20%;
 }
 
 th.width4 {
